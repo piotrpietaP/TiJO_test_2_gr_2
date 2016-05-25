@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-<html ng-app="exerciseApp">
+<html>
 <head lang="en">
-    <meta charset="UTF-8">
-    <title>Angular Exercise 5</title>
+    <title>AngularJS Tutorials</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 </head>
-<body>
 
-<div ng-view=""></div>
+<body ng-app="fifaApp" ng-controller="FifaCtrl as fifa">
+<div class="container">
+    <div class="page-header">
+        <h1>Gr 2</h1>
+    </div>
+    <div>
+        <div class="panel-body text-center">
+            <div class="alert alert-info" role="alert">Good news!</div>
 
+        </div>
+    </div>
+    <div class="jumbotron text-center">
+        <span class="label label-warning">ABC</span>
+        <span class="label label-warning">CDE</span>
+    </div>
+    <input class="form-control" value="Kolokwium"/>
+
+</div>
 <script src="bower_components/angular/angular.js"></script>
-<script src="bower_components/angular-mocks/angular-mocks.js"></script>
-<script src="bower_components/angular-resource/angular-resource.js"></script>
-<script src="bower_components/angular-route/angular-route.js"></script>
-<script src="app.js"></script>
-<script src="BrainCandyListCtrl.js"></script>
-<script src="BrainCandyDetailsCtrl.js"></script>
-<script src="CandyDAO.js"></script>
+<script src="exercise1.js"></script>
 </body>
 </html>
-        
